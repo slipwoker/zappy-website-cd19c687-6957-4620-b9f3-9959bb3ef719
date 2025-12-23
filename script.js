@@ -74,7 +74,7 @@ animateElements.forEach(el => {
 const phoneBtn = document.querySelector('.phone-header-btn');
 if (phoneBtn) {
   phoneBtn.addEventListener('click', () => {
-    window.location.href = 'tel:[business_phone]';
+    window.location.href = 'tel:0522972222';
   });
 }
 

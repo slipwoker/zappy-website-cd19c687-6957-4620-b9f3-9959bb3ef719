@@ -1,57 +1,47 @@
-# למות מצחוק — Generative Engine Optimization Map
-
-> A בידור והופעות business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### Home
-https://-cd19c687.zappy5.app
+https://example.com
 בידור מקצועי לחתונות, בר מצווה ואירועי חברה. קומיקאים מנוסים שיהפכו את האירוע שלכם לבלתי נשכח עם צחוק וקומדיה איכותית.
 
 ### Services
-https://-cd19c687.zappy5.app/services
+https://example.com/services
 גלו את מגוון שירותי הבידור שלנו: סטנד-אפ קלאסי, בידור אינטראקטיבי, הופעות לחתונות, בר מצווה ואירועי חברה. חבילות מותאמות אישית.
 
 ### About
-https://-cd19c687.zappy5.app/about
+https://example.com/about
 הכירו את הסיפור שלנו, הפילוסופיה והצוות המקצועי. 15 שנות ניסיון בהבאת צחוק ושמחה לאלפי אירועים ברחבי הארץ.
 
 ### Contact
-https://-cd19c687.zappy5.app/contact
+https://example.com/contact
 צרו קשר עכשיו להזמנת הופעה. זמינים 24/7 בטלפון, WhatsApp ומייל. מלאו טופס ונחזור אליכם תוך 24 שעות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-cd19c687.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-cd19c687.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-cd19c687.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About למות מצחוק
-למות מצחוק is a business in the בידור והופעות industry.
-
-## Target Audience
-קהל רחב - אירועים, חתונות, בר מצווה
-
-## Industry
-בידור והופעות
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://-cd19c687.zappy5.app/sitemap.xml
-- **Robots.txt**: https://-cd19c687.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt

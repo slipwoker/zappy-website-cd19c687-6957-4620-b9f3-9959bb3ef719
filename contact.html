@@ -439,7 +439,7 @@
                         </div>
                         <h3>התקשרו אלינו</h3>
                         <p>זמינים לשיחה בכל שעה</p>
-                        <a href="tel:[business_phone]" class="contact-link">[business_phone]</a>
+                        <a href="tel:0522972222" class="contact-link">0522972222</a>
                     </div>
 
                     <div class="contact-card">
@@ -448,7 +448,7 @@
                         </div>
                         <h3>שלחו מייל</h3>
                         <p>נחזור אליכם תוך 24 שעות</p>
-                        <a href="mailto:[business_email]" class="contact-link">[business_email]</a>
+                        <a href="mailto:barrysela@gmail.com" class="contact-link">barrysela@gmail.com</a>
                     </div>
 
                     <div class="contact-card">
@@ -457,7 +457,7 @@
                         </div>
                         <h3>WhatsApp</h3>
                         <p>הדרך המהירה ביותר לקבל מענה</p>
-                        <a href="https://wa.me/[business_phone]" class="contact-link" target="_blank">שלחו הודעה</a>
+                        <a href="https://wa.me/972522972222" class="contact-link" target="_blank">שלחו הודעה</a>
                     </div>
 
                     <div class="contact-card">
@@ -466,17 +466,17 @@
                         </div>
                         <h3>המשרד שלנו</h3>
                         <p>בואו לבקר</p>
-                        <address class="contact-link">[business_address]</address>
+                        <address class="contact-link">Tsofit 10, Rosh Hain, 4521735, Israel</address>
                     </div>
 
                     <div class="social-connect">
                         <h3>עקבו אחרינו</h3>
                         <div class="social-links-large">
-                            <a href="https://facebook.com/[facebook_handle]" target="_blank" aria-label="Facebook">
+                            <a href="https://facebook.com/beerisela" target="_blank" aria-label="Facebook">
                                 <i class="fab fa-facebook"></i>
                                 <span>Facebook</span>
                             </a>
-                            <a href="https://instagram.com/[instagram_handle]" target="_blank" aria-label="Instagram">
+                            <a href="https://instagram.com/beerisela" target="_blank" aria-label="Instagram">
                                 <i class="fab fa-instagram"></i>
                                 <span>Instagram</span>
                             </a>
@@ -521,11 +521,11 @@
                 <h2>בדקו זמינות</h2>
                 <p>רוצים לדעת אם אנחנו פנויים בתאריך שלכם? מלאו את הפרטים ונחזור אליכם מיד</p>
                 <div class="quick-contact">
-                    <a href="tel:[business_phone]" class="quick-btn">
+                    <a href="tel:0522972222" class="quick-btn">
                         <i class="fas fa-phone"></i>
                         התקשרו עכשיו
                     </a>
-                    <a href="https://wa.me/[business_phone]" class="quick-btn quick-btn-whatsapp">
+                    <a href="https://wa.me/972522972222" class="quick-btn quick-btn-whatsapp">
                         <i class="fab fa-whatsapp"></i>
                         WhatsApp
                     </a>
@@ -540,9 +540,9 @@
                 <h3>למות מצחוק</h3>
                 <p>בידור והופעות שמביאים שמחה לכל אירוע</p>
                 <div class="social-links">
-                    <a href="https://facebook.com/[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="https://instagram.com/[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://wa.me/[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://facebook.com/beerisela" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/beerisela" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/972522972222" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
             <div class="footer-section">
@@ -556,9 +556,9 @@
             <div class="footer-section">
                 <h4>יצירת קשר</h4>
                 <ul>
-                    <li><i class="fas fa-envelope"></i> [business_email]</li>
-                    <li><i class="fas fa-phone"></i> [business_phone]</li>
-                    <li><i class="fas fa-map-marker-alt"></i> [business_address]</li>
+                    <li><i class="fas fa-envelope"></i> barrysela@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> 0522972222</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Tsofit 10, Rosh Hain, 4521735, Israel</li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -576,7 +576,7 @@
         </div>
     </footer>
 
-    <a href="https://wa.me/[business_phone]" class="whatsapp-float" aria-label="WhatsApp">
+    <a href="https://wa.me/972522972222" class="whatsapp-float" aria-label="WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -778,149 +778,6 @@
         console.log('[Navbar] Phone button positioned:', {
           lang: htmlLang,
           position: htmlLang === 'he' || htmlLang === 'ar' ? 'left: 20px' : 'right: 20px'
-        });
-      }
-    } else {
-      console.log('[Navbar] Could not parse background color:', bgColor);
-    }
-    
-    // MOBILE MENU TOGGLE
-   
-    const mobileToggle = document.getElementById('mobileToggle');
-    const navMenu = document.getElementById('navMenu');
-    
-    if (!mobileToggle || !navMenu) {
-      console.log('[Navbar] Mobile toggle or menu not found');
-      return;
-    }
-    
-    console.log('[Navbar] Initializing mobile menu...');
-    
-    // Remove any existing event listeners by cloning the button
-    const newToggle = mobileToggle.cloneNode(true);
-    mobileToggle.parentNode.replaceChild(newToggle, mobileToggle);
-    
-    // Toggle menu on button click - use newToggle now
-    newToggle.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      const hamburgerIcon = this.querySelector('.hamburger-icon');
-      const closeIcon = this.querySelector('.close-icon');
-      const isActive = navMenu.classList.contains('active');
-      
-      if (isActive) {
-        // Close menu
-        navMenu.classList.remove('active');
-        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
-        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
-        document.body.style.overflow = '';
-        console.log('[Navbar] Menu closed');
-      } else {
-        // Open menu
-        navMenu.classList.add('active');
-        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'none', 'important');
-        if (closeIcon) closeIcon.style.setProperty('display', 'block', 'important');
-        document.body.style.overflow = 'hidden';
-        console.log('[Navbar] Menu opened');
-      }
-    });
-    
-    // Close menu when clicking nav links
-    const navLinks = navMenu.querySelectorAll('a');
-    navLinks.forEach(function(link) {
-      link.addEventListener('click', function() {
-        const hamburgerIcon = newToggle.querySelector('.hamburger-icon');
-        const closeIcon = newToggle.querySelector('.close-icon');
-        
-        navMenu.classList.remove('active');
-        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
-        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
-        document.body.style.overflow = '';
-        console.log('[Navbar] Menu closed (link clicked)');
-      });
-    });
-    
-    // Phone button functionality
-    const phoneBtn = document.querySelector('.phone-header-btn');
-    if (phoneBtn) {
-      phoneBtn.addEventListener('click', function() {
-        // Get phone number from placeholder in page or use default
-        const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
-        const phoneNumber = phoneLinks.length > 0 
-          ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
-        
-        window.location.href = 'tel:' + phoneNumber;
-        console.log('[Navbar] Phone button clicked');
-      });
-    }
-    
-    console.log('[Navbar] Mobile menu initialized successfully');
-  });
-})();
-
-</script>
-
-<!-- Zappy Attribution Header Script -->
-<script>
-(function() {
-  var websiteId = 'cd19c687-6957-4620-b9f3-9959bb3ef719';
-  
-  // Don't show header in preview mode
-  var currentUrl = window.location.href;
-  var isPreview = currentUrl.includes('/preview/') || 
-                  currentUrl.includes('/preview-fullscreen/') || 
-                  currentUrl.includes('localhost:5001') ||
-                  currentUrl.includes('localhost:3000');
-  
-  if (isPreview) {
-    return; // Exit early in preview mode
-  }
-  
-  fetch('http://localhost:5001/api/website/' + websiteId + '/tier')
-    .then(function(response) { return response.json(); })
-    .then(function(data) {
-      if (data.showAttribution) {
-        var header = document.getElementById('zappy-attribution-header');
-        if (header) {
-          // Use dynamic announcement content if available
-          if (data.announcement && data.announcement.html) {
-            header.innerHTML = data.announcement.html;
-          }
-          // Apply fixed positioning styles inline (works for existing sites too)
-          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
-          // Fix child elements that might have position: fixed from old CSS
-          var children = header.querySelectorAll('*');
-          for (var i = 0; i < children.length; i++) {
-            children[i].style.position = 'static';
-          }
-          // Get header height
-          var headerHeight = header.offsetHeight;
-          // Find and fix navbar to be fixed as well (prevents gap at top of page)
-          var navSelectors = ['nav', '.navbar', '.nav'];
-          var navbar = null;
-          for (var j = 0; j < navSelectors.length; j++) {
-            navbar = document.querySelector(navSelectors[j]);
-            if (navbar && navbar.id !== 'zappy-attribution-header') break;
-            navbar = null;
-          }
-          if (navbar) {
-            var navbarHeight = navbar.offsetHeight;
-            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
-            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
-          } else {
-            document.body.style.paddingTop = headerHeight + 'px';
-          }
-        }
-      }
-    })
-    .catch(function(error) {
-      console.error('Failed to check tier:', error);
-    });
-})();
-</script>
-    <div data-integration="accessibility:toolbar"></div>
 
     <script id="zappy-mobile-submenu-script">
     (function() {
@@ -957,4 +814,5 @@
     })();
     </script>
     <script src="/script.js"></script>
-</body></html>
+</body>
+</html>
