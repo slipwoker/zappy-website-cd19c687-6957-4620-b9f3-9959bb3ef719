@@ -1,47 +1,57 @@
-# Business — Generative Engine Optimization Map
+# למות מצחוק — Generative Engine Optimization Map
+
+> A בידור והופעות business.
 
 ---
 
 ## Pages
 
 ### Home
-https://example.com
+https://lamut-mitzchok.zappy5.app
 בידור מקצועי לחתונות, בר מצווה ואירועי חברה. קומיקאים מנוסים שיהפכו את האירוע שלכם לבלתי נשכח עם צחוק וקומדיה איכותית.
 
 ### Services
-https://example.com/services
+https://lamut-mitzchok.zappy5.app/services
 גלו את מגוון שירותי הבידור שלנו: סטנד-אפ קלאסי, בידור אינטראקטיבי, הופעות לחתונות, בר מצווה ואירועי חברה. חבילות מותאמות אישית.
 
 ### About
-https://example.com/about
+https://lamut-mitzchok.zappy5.app/about
 הכירו את הסיפור שלנו, הפילוסופיה והצוות המקצועי. 15 שנות ניסיון בהבאת צחוק ושמחה לאלפי אירועים ברחבי הארץ.
 
 ### Contact
-https://example.com/contact
+https://lamut-mitzchok.zappy5.app/contact
 צרו קשר עכשיו להזמנת הופעה. זמינים 24/7 בטלפון, WhatsApp ומייל. מלאו טופס ונחזור אליכם תוך 24 שעות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://lamut-mitzchok.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://lamut-mitzchok.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://lamut-mitzchok.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About למות מצחוק
+למות מצחוק is a business in the בידור והופעות industry.
+
+## Target Audience
+קהל רחב - אירועים, חתונות, בר מצווה
+
+## Industry
+בידור והופעות
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://lamut-mitzchok.zappy5.app/sitemap.xml
+- **Robots.txt**: https://lamut-mitzchok.zappy5.app/robots.txt
